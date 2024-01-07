@@ -1,0 +1,113 @@
+@media (min-width: 992px) {
+
+    .nav {
+		
+
+		padding: 1em;
+		
+		&-desktop {
+            position: absolute;
+			display: block;
+			position: fixed;
+            top: 0;
+			width: 100%;
+			text-align: center;
+			background-color: $dark1;
+			border-bottom: 1px solid #81c6ff;
+			z-index: 1000;
+		}
+
+		&__link {
+			color: $white1;
+		
+		}
+
+
+	}
+
+    .hamburger {
+        display: none;
+    }
+
+	.header {
+		&__text {
+			h1.company-name {
+				font-size: 10rem;
+
+				&::before {
+					top: 105px;
+					height: 2px;
+					width: 500px;
+				}
+			}
+		}
+	}
+
+	.about {
+		&__box {
+			margin-top: 5em;
+
+		}
+
+	}
+
+	.offer {
+		&__box {
+			margin-top: 5em;
+
+		}
+	}
+
+	.service {
+		&__box {
+			margin-top: 5em;
+
+		}
+	}
+
+	.gallery {
+		&__box {
+			margin-top: 5em;
+
+		}
+	}
+
+	.contact {
+		.contact {
+			&__title {
+				margin-top: 3em;
+			}
+
+
+			&__box {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin: 0;
+				padding: 0;
+				background-color: $dark;
+				border: 1px solid $dark;
+				border-radius: 10px;
+			}
+			
+			&__info {
+				// text-align: left;
+				margin-right: 2em;
+				padding: 2em 0 ;
+				padding-left: 2em;
+			}
+			
+			&__form {
+			padding-top: 2em;
+				// text-align: left;
+
+				// justify-content: end;
+				width: 400px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,93 @@
+@media (min-width: 768px) {
+	.header {
+		&__text {
+			h1.company-name {
+				font-size: 5rem;
+
+				&::before {
+					top: 55px;
+					height: 2px;
+					width: 250px;
+				}
+			}
+		}
+	}
+
+	.about {
+		&__text {
+			margin-bottom: 3em;
+		}
+
+		&__card {
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: 3em;
+		}
+
+		&__img {
+			margin: 0;
+			height: auto;
+			width: 40%;
+
+			&--right {
+				order: 1;
+			}
+
+			&-text {
+				width: 55%;
+			}
+		}
+	}
+
+	.offer {
+		&__list {
+			display: flex;
+			flex-flow: row wrap;
+
+			&-item {
+				width: 33%;
+			}
+		}
+	}
+
+	.service {
+		&__title {
+			&-text {
+				margin-bottom: 3em;
+			}
+		}
+
+		&__card {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&__img {
+			margin: 0 3em;
+			margin-bottom: 3em;
+			height: auto;
+			width: 40%;
+
+			&-right {
+				order: 1;
+                width: auto;
+                height: 500px;
+			}
+		}
+
+        &__text {
+            &-right {
+                margin-top: 3em;
+            }
+        }
+	}
+
+	.gallery {
+		&__img-item {
+			width: 400px;
+		}
+	}
+
+
+}
